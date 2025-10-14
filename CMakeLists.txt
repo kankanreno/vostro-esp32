@@ -15,4 +15,4 @@ set(EXTRA_COMPONENT_DIRS $ENV{IDF_PATH}/components ./components)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Define project name
-project(lvgl)
+project(office)
