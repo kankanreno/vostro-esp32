@@ -146,7 +146,7 @@ void app_main(void) {
     led_strip_config_t strip_config = {
         .strip_gpio_num = RGB_LED_GPIO,   // 灯在 21 号引脚
         .max_leds = 1,                     // 只有 1 颗灯
-        .led_pixel_format = LED_PIXEL_FORMAT_GRB,  // WS2812 的颜色顺序是 绿-红-蓝
+        .color_component_format = LED_STRIP_COLOR_COMPONENT_FMT_GRB,  // WS2812 的颜色顺序是 绿-红-蓝
         .led_model = LED_MODEL_WS2812,    // 灯的型号
     };
 
